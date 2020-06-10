@@ -12,6 +12,9 @@ body.knitwear {
 body.spring18 {
   background-color: #F6F17A;
 }
+body.media {
+  background-color: #b5c3f4;
+}
 
 a {
   color: #222434;
@@ -30,6 +33,14 @@ h2 {
   font-size: 42px;
   margin-bottom: 20px;
   margin-top: 0px;
+}
+
+.padded-bottom {
+  margin-bottom: 56px;
+}
+
+.media p {
+  margin-top: 8px;
 }
 
 .nav {

@@ -15,6 +15,9 @@ body.spring18 {
 body.media {
   background-color: #b5c3f4;
 }
+body.technicalflats {
+  background-color: #D2E5CC;
+}
 
 a {
   color: #222434;
@@ -72,6 +75,7 @@ h2 {
 }
 .nav__links a {
   margin-right: 20px;
+  white-space: nowrap;
 }
 
 .intro {
@@ -439,12 +443,18 @@ h2 {
   right: 10%;
 }
 
-.spring18 .image, .media .image {
+.spring18 .image, .media .image, .technicalflats .image {
   position: initial;
   max-width: 100%;
   max-height: 100%;
   margin-right: 10px;
   margin-bottom: 10px;
+}
+.technicalflats .image.noeffect {
+  background-color: white;
+  padding: 30px;
+  border: 5px solid #93b3a9;
+  box-sizing: border-box;
 }
 .knit-section {
   margin-top: 60px;
@@ -459,7 +469,7 @@ h2 {
 }
 
 
-@media (max-width: 780px) {
+@media (max-width: 820px) {
   h1 {
     font-size: 40px;
   }
@@ -481,6 +491,7 @@ h2 {
   .nav__links a {
     margin-right: 0px;
     margin-left: 5px;
+    white-space: nowrap;
   }
   .intro {
     padding: 10px;
@@ -537,7 +548,7 @@ h2 {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .nav-hide-for-small {
     display: none;
   }

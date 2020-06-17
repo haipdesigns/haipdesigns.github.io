@@ -14,6 +14,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="/css/styles.css">
+  <script type="text/javascript">
+    function gen_mail_to_link(lhs, rhs, subject) {
+      document.write("<a href=\"mailto");
+      document.write(":" + lhs + "@");
+      document.write(rhs + "\">Contact<\/a>");
+    }
+  </script>
 
 </head>
 
@@ -28,6 +35,7 @@
       <a href="/spring18/"><span class="nav-hide-for-small">Spring </span>'18</a>
       <a href="/spring17/"><span class="nav-hide-for-small">Spring </span>'17</a>
       <a href="/knitwear/">Knitwear</a>
+      <a href="/technical-flats/"><span class="nav-hide-for-small">Technical </span>Flats</a>
     </div>
   </div>
 
@@ -41,19 +49,7 @@
       </span>
       <span>
         <script type="text/javascript">
-  //<![CDATA[
-  < !--
-  var x = "function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
-            "=49){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
-            ".substr(0,ol);}f(\")911,\\\"gkapzi7zh'10$!!610\\\\ri620\\\\%!&+ d,6a+\\\\\\" +
-            "\\WQ771\\\\130\\\\f400\\\\][B\\\\\\\\@320\\\\020\\\\mEKK300\\\\@DEAKTQ@Jc42" +
-            "0\\\\120\\\\320\\\\mnt}s vl{771\\\\ty1N,vj|e,j6+ ij`pjpv.n\\\\320\\\\130\\\\" +
-            "620\\\\710\\\\230\\\\720\\\\320\\\\\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x" +
-            "(edoCrahCmorf.gnirtS=+o;721=%y{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav" +
-            "{)y,x(f noitcnuf\")";
-          while (x = eval(x));
-  //-->
-  //]]>
+          gen_mail_to_link('haipdesignsnyc', 'gmail.com', 'Message from haipdesigns.com');
         </script>
       </span>
     </div>
